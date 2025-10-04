@@ -9,24 +9,25 @@ export default function Skills() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
         {/* Skill 1 */}
-        <div className="flex flex-col items-center border p-4 rounded shadow">
+        <div className="flex flex-col items-center border p-4 rounded shadow hover:scale-105 transition-transform duration-300">
           <img src="/html.svg" alt="HTML" className="w-12 h-12 mb-2"/>
-          <span>HTML</span>
+          <span className="font-medium">HTML</span>
         </div>
 
         {/* Skill 2 */}
-        <div className="flex flex-col items-center border p-4 rounded shadow">
+        <div className="flex flex-col items-center border p-4 rounded shadow hover:scale-105 transition-transform duration-300">
           <img src="/css.svg" alt="CSS" className="w-12 h-12 mb-2"/>
-          <span>CSS</span>
+          <span className="font-medium">CSS</span>
         </div>
 
         {/* Skill 3 */}
-        <div className="flex flex-col items-center border p-4 rounded shadow">
+        <div className="flex flex-col items-center border p-4 rounded shadow hover:scale-105 transition-transform duration-300">
           <img src="/javascript.svg" alt="JavaScript" className="w-12 h-12 mb-2"/>
-          <span>JavaScript</span>
+          <span className="font-medium">JavaScript</span>
         </div>
 
-        {/* I plan to add more but just 3 for now */}
+        {/* add more skills later */}
+        {/* reminder: add the logos */}
       </div>
     </div>
   );
