@@ -4,7 +4,7 @@ export default function Skills() {
       <h1 className="text-3xl font-bold mb-6 text-center">My Skills</h1>
 
       <p className="text-lg mb-6 text-center">
-        During my time in Georgian College, I've built a good foundation when it comes to Development skills.
+        During my time in Georgian College, I&apos;ve built a good foundation when it comes to Development skills.
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
