@@ -8,8 +8,8 @@ export default function Home() {
         Current Georgian College student in the Interactive Media Design - Web Program
       </p>
       <p className="text-md mb-6">
-        {`"Be the change you wish to see in the world"
-        <br></br>- Mahatma Ghandi`}
+        {`"Be the change you wish to see in the world"`}
+        <br></br>{`- Mahatma Ghandi`}
       </p>
       <Link
         href="/about"
