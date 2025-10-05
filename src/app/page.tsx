@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container mx-auto p-8 text-center">
+    <main className="container mx-auto p-8 text-center">
       <h1 className="text-4xl font-bold mb-4">Welcome to my Portfolio</h1>
       <p className="text-lg mb-6">
         Current Georgian College student in the Interactive Media Design - Web Program
@@ -17,6 +17,6 @@ export default function Home() {
       >
         Learn More
       </Link>
-    </div>
+    </main>
   )
 }

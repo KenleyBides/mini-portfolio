@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div className="container mx-auto p-8 text-center">
+    <main className="container mx-auto p-8 text-center">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
        <Image
         src="/myphoto.jpeg"
@@ -18,6 +18,6 @@ export default function About() {
       <p className="text-lg mb-4">
         My mission is to improve day by day, continuously learning and growing as a developer and designer.
       </p>
-    </div>
+    </main>
   );
 }

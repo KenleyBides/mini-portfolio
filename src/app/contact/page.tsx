@@ -20,7 +20,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="container mx-auto p-8 max-w-md">
+    <main className="container mx-auto p-8 max-w-md">
       <h1 className="text-3xl font-bold mb-6 text-center">Contact Me</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
@@ -59,6 +59,6 @@ export default function Contact() {
           Submit
         </button>
       </form>
-    </div>
+    </main>
   );
 }
