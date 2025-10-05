@@ -5,7 +5,7 @@ export default function Navbar() {
     <header className="bg-gray-400 shadow-sm">
       <div className="container mx-auto flex items-center justify-between p-4">
         <Link href="/" className="flex items-center gap-3">
-          <span className="font-bold">Ken's Portfolio</span>
+          <span className="font-bold">{`Ken's Portfolio`}</span>
         </Link>
 
         <nav className="space-x-4">
